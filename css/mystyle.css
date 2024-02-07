@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+.follow {
+    font-size: 28px;
+}
+
+.fab {
+    font-size: 36px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-instagram {
+    color: ;
+}
+
+.fa-linkedin {
+    color: #0A66C2, ;
+}
+
+.fa-glass-cheers {
+    font-size: 90px;
+}
+
+.fa-user-check {
+    font-size: 90px;
+}
+
+.fa-ideal {
+    font-size: 90px;
+}
+
+.fa-spa {
+    color: aqua;
+}
+
+.fa-glass-cheers,
+.fa-user-check,
+.fa-ideal {
+    color: rgb(54, 170, 199);
+}
+
+.my-font-style {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.back {
+    background: url(../img/bg1.jpg);
+    height: 400px;
+    /* background-size: cover; */
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.grey {
+    background-color: rgba(180, 173, 173, 0.548);
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: black;
+}
+
+.gmail {
+    background-color: white;
+    font-weight: 700;
+}
+
+.ups .btn-primary {
+    border: none;
+    background-color: rgb(54, 170, 199);
+    font-size: 14px;
+    font-weight: 500;
+    width: 120px;
+    height: 30px;
+}
+
+.ups .btn-primary:hover {
+    color: black;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    content: '.';
+    color: transparent;
+    background: #000;
+    height: 2px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+
+@media screen and (min-width:350px) and (max-width: 575px) {
+    .hotal-price h1 {
+        font-size: 1.2rem;
+    }
+
+    .hotal-night p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:745px) {
+    .new {
+        display: none;
+    }
+}

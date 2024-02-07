@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+.follow{
+    font-size: 28px;
+}
+.fab{
+    font-size: 36px;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter-square{
+    color: rgb(34, 169, 202);
+}
+.fa-youtube{
+    color: red;
+}
+.fa-pinterest{
+    color: red;
+}
+.fa-instagram{
+    color: indianred;
+}
+.fa-linkedin{
+    color: lightblue;
+}
+.fa-glass-cheers{
+    font-size: 90px;
+}
+.fa-user-check{
+    font-size: 90px;
+}
+.fa-ideal{
+    font-size: 90px;   
+}
+.fa-spa{
+    color: aqua;
+}
+.fa-glass-cheers , .fa-user-check , .fa-ideal{
+    color: rgb(54, 170, 199);
+}
+.my-font-style {
+    font-family: 'Sedgwick Ave', cursive;
+}
+.back{
+    background: url(../img/bg.jpg);
+    height: 400px;
+    /* background-size: cover; */
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.grey{
+    background-color: rgba(180, 173, 173, 0.548);
+}
